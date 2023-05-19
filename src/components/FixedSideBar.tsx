@@ -12,8 +12,8 @@ import {
 } from "react-icons/ai";
 
 const FixedSideBar: FC = () => (
-  <div className="fixed left-[20px] top-[90px] rounded-[30px] border border-color-3 p-[30px] max-w-[350px] text-white flex flex-col">
-    <header className="flex items-center justify-between mb-[30px]">
+  <div className="relative xl:fixed xl:left-[20px] xl:top-[90px] rounded-[30px] border border-color-3 p-[30px] xl:max-w-[350px] text-white flex flex-col items-center m-auto w-[705px]">
+    <header className="w-full flex items-center justify-between mb-[30px]">
       <h1 className="font-[600] text-[30px]">Binderiya</h1>
       <span className="text-sm-regular text-end">
         Framer Designer

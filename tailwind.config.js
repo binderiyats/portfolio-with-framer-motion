@@ -7,6 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        smallest: "350px",
+        // => @media (min-width: 640px) { ... }
+
+        smaller: "450px",
+        // => @media (min-width: 1024px) { ... }
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -20,6 +27,13 @@ module.exports = {
         "color-4": "#565656",
       },
       fontSize: {
+        "xxs-slim": [
+          "13px",
+          {
+            lineHeight: "22pxs",
+            fontWeight: "400",
+          },
+        ],
         "xs-slim": [
           "12px",
           {
@@ -67,6 +81,13 @@ module.exports = {
           {
             lineHeight: "27px",
             fontWeight: "400",
+          },
+        ],
+        title: [
+          "48px",
+          {
+            lineHeight: "60px",
+            fontWeight: "300",
           },
         ],
       },
