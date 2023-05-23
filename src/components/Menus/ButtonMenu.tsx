@@ -9,10 +9,10 @@ const ButtonMenu: FC = () => {
 
   return (
     <>
-      <div>
+      <div className="">
         <button
           onClick={menuHandler}
-          className="absolute top-0 right-0 xl:mt-[60px] xl:mr-[68px] grid place-items-center border text-white border-color-3 w-[55px] h-[55px] rounded-full hover:border hover:border-color-1 hover:text-color-1 duration-300 p-10"
+          className="absolute top-0 right-0 xl:mt-[60px] xl:mr-[68px] border text-white border-color-3 rounded-full hover:border hover:border-color-1 hover:text-color-1 duration-300"
         >
           <HiOutlineMenuAlt4 size={25} />
         </button>
